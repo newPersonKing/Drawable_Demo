@@ -1,0 +1,26 @@
+<resources>
+
+    <declare-styleable name="GradientTextView">
+        <attr name="border_color" format="color|reference|integer"/>
+        <attr name="border_width" format="dimension|reference"/>
+        <attr name="border_radius" format="dimension|reference"/>
+        <attr name="solid_background" format="color|reference"/>
+        <attr name="has_background" format="boolean"/>
+        <attr name="same_color_with_text" format="boolean"/>
+        <attr name="gradient_start_color" format="color|reference"/>
+        <attr name="gradient_center_color" format="color|reference"/>
+        <attr name="gradient_end_color" format="color|reference"/>
+        <attr name="gradient_by_primary_colors" format="boolean"/>
+        <attr name="orientation" >
+            <enum name="TOP_BOTTOM" value="1" />
+            <enum name="TR_BL" value="2" />
+            <enum name="RIGHT_LEFT" value="3" />
+            <enum name="BR_TL" value="4" />
+            <enum name="BOTTOM_TOP" value="5" />
+            <enum name="BL_TR" value="6" />
+            <enum name="LEFT_RIGHT" value="7" />
+            <enum name="TL_BR" value="8" />
+        </attr>
+    </declare-styleable>
+
+</resources>

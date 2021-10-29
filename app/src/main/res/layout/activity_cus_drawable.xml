@@ -48,6 +48,19 @@
 
     </LinearLayout>
 
+    <com.gy.drawabledemo.view.GradientTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        app:border_color="@color/colorAccent"
+        app:border_width="5dp"
+        app:gradient_start_color="@android:color/holo_red_light"
+        app:gradient_end_color="@android:color/darker_gray"
+        app:orientation="RIGHT_LEFT"
+        app:border_radius="25dp"
+        android:text="使用drawable 定义形状"/>
+
 
 
 </LinearLayout>
