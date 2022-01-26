@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:clipChildren="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/roundedCornerTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="RoundedCornerTreatment"/>
+
+        <Button
+            android:id="@+id/innerCutCornerTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="RoundedCornerTreatment"/>
+
+        <Button
+            android:id="@+id/innerRoundCornerTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="InnerRoundCornerTreatment"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <Button
+            android:id="@+id/extraRoundCornerTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="ExtraRoundCornerTreatment"/>
+
+        <Button
+            android:id="@+id/argEdgeTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="ArgEdgeTreatment"/>
+
+        <Button
+            android:id="@+id/quadqEdgeTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="QuadEdgeTreatment"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <Button
+            android:id="@+id/cutCornerTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="CutCornerTreatment"/>
+
+        <Button
+            android:id="@+id/triangleEdgeTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="TriangleEdgeTreatment"/>
+
+        <Button
+            android:id="@+id/offsetEdgeTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="OffsetEdgeTreatment"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <Button
+            android:id="@+id/markerEdgeTreatment"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:text="MarkerEdgeTreatment"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/triangleEdgeTreatment"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="8sp"-->
+<!--            android:text="TriangleEdgeTreatment"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/offsetEdgeTreatment"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="8sp"-->
+<!--            android:text="OffsetEdgeTreatment"/>-->
+    </LinearLayout>
+
+</LinearLayout>

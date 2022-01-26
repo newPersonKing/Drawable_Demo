@@ -17,4 +17,12 @@
         android:layout_margin="15dp"
         android:text="自定义drawable"/>
 
+    <Button
+        android:id="@+id/btn_material_components_shape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:layout_margin="15dp"
+        android:text="Material Components Shape"/>
+
 </LinearLayout>

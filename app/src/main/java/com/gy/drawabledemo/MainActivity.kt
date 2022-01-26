@@ -1,5 +1,6 @@
 package com.gy.drawabledemo
 
+import android.app.Dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         setContentView(R.layout.activity_main)
 
         btn1.setOnClickListener(this)
+        btn_material_components_shape.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -20,6 +22,10 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
         when(v.id){
             R.id.btn1 -> {
                 val intent = Intent(this,CustomDrawableActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btn_material_components_shape -> {
+                val intent = Intent(this,MaterialComponentShapeActivity::class.java)
                 startActivity(intent)
             }
         }
