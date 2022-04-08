@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
         btn1.setOnClickListener(this)
         btn_material_components_shape.setOnClickListener(this)
+        btn_material_components_shape_imageview.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -26,6 +27,10 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
             }
             R.id.btn_material_components_shape -> {
                 val intent = Intent(this,MaterialComponentShapeActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btn_material_components_shape_imageview -> {
+                val intent = Intent(this,MaterialComponentShapeImageViewActivity::class.java)
                 startActivity(intent)
             }
         }

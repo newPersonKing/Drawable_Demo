@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.circle"
+            android:src="@drawable/car1"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_code_corner"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/car1"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.cut"
+            android:src="@drawable/car2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.mix"
+            android:src="@drawable/car3"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:strokeColor="@color/colorAccent"
+            app:strokeWidth="2dp"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.mix"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/car1"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_view_outline_provider"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:src="@drawable/car4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/viewOutLinePath"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/car3"/>
+
+<!--        <com.google.android.material.imageview.ShapeableImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            app:strokeColor="@color/colorAccent"-->
+<!--            app:strokeWidth="2dp"-->
+<!--            app:shapeAppearanceOverlay="@style/ShapeAppearance.mix"-->
+<!--            android:padding="10dp"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:src="@drawable/car1"/>-->
+
+<!--        <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:id="@+id/iv_view_outline_provider"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:src="@drawable/car4"/>-->
+
+    </LinearLayout>
+</LinearLayout>
